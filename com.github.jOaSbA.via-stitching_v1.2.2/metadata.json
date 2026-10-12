@@ -1,0 +1,35 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Via Stitching",
+  "description": "Stitch copper zones together with a grid of vias on a chosen net",
+  "description_full": "Fills the overlap of a net's copper zones (for example the top and bottom GND pours) with a grid of stitching vias, on whichever two copper layers you pick.\n\nWorks on KiCad 6 and later. There are two builds, and the Plugin and Content Manager installs whichever one your KiCad runs.\n\nFeatures:\n- Through, Micro, Blind, Buried, and Blind/Buried via types, on any layer pair.\n- Hexagonal, square, or staggered patterns, with configurable diameter, drill, and spacing.\n- X/Y offset for stitching more than one pattern onto the same area without overlap.\n- Automatically avoids other nets' tracks, pads, zones, and existing holes, with proper clearances.\n- Select an existing via to clone its settings, or let the dialog remember your last run.\n- Placed vias are grouped together, and Reset last run deletes a whole run as a set.\n- Dialog follows KiCad's own configured UI language: English, Dutch, German, or French.",
+  "identifier": "com.github.jOaSbA.via-stitching",
+  "type": "plugin",
+  "author": {
+    "name": "jOaSbA",
+    "contact": {
+      "web": "https://github.com/jOaSbA"
+    }
+  },
+  "license": "GPL-3.0",
+  "resources": {
+    "Homepage": "https://github.com/jOaSbA/via-stitching",
+    "Bug Tracker": "https://github.com/jOaSbA/via-stitching/issues"
+  },
+  "tags": [
+    "via",
+    "stitching",
+    "ground",
+    "plane",
+    "zone"
+  ],
+  "versions": [
+    {
+      "version": "1.2.2",
+      "status": "stable",
+      "kicad_version": "6.0",
+      "kicad_version_max": "9.0",
+      "runtime": "swig"
+    }
+  ]
+}
