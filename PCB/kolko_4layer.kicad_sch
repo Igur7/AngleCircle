@@ -5027,6 +5027,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 110.49) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38371dc2-6fc5-4eff-b872-3e5c3ce37589")
+	)
+	(wire
+		(pts
 			(xy 165.1 180.34) (xy 167.64 180.34)
 		)
 		(stroke
@@ -5517,7 +5527,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 111.76) (xy 85.09 111.76)
+			(xy 83.82 110.49) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5647,6 +5657,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 119.38) (xy 85.09 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c084449-36ef-488f-af9f-a6e2b7534507")
+	)
+	(wire
+		(pts
 			(xy 181.61 58.42) (xy 186.69 58.42)
 		)
 		(stroke
@@ -5747,16 +5767,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 53.34) (xy 267.97 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99dc278-35b2-49f8-bbe8-17ccedc12ca7")
-	)
-	(wire
-		(pts
 			(xy 132.08 102.87) (xy 134.62 102.87)
 		)
 		(stroke
@@ -5804,16 +5814,6 @@
 			(type default)
 		)
 		(uuid "b607aeca-624c-4157-8b70-472382a8004c")
-	)
-	(wire
-		(pts
-			(xy 85.09 111.76) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a451e0-bb83-44a4-acbd-6212de358fde")
 	)
 	(wire
 		(pts
@@ -5924,6 +5924,16 @@
 			(type default)
 		)
 		(uuid "da862bec-89e1-455f-b65d-aee9b031c87d")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db05fd62-3191-4633-978e-cef34e621f7e")
 	)
 	(wire
 		(pts
@@ -6235,8 +6245,16 @@
 		)
 		(uuid "120f750d-8f28-4882-8557-1de78134c905")
 	)
+	(no_connect
+		(at 242.57 54.61)
+		(uuid "74b0398d-e1b3-4a18-8974-2071c121b575")
+	)
+	(no_connect
+		(at 242.57 57.15)
+		(uuid "fbf52562-ce17-4287-863f-008c2f0f5b76")
+	)
 	(label "D_1MCU+"
-		(at 267.97 53.34 0)
+		(at 266.7 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6514,16 +6532,6 @@
 			(justify left bottom)
 		)
 		(uuid "61e3c2cf-5b7d-4478-afb9-7dc5884800b3")
-	)
-	(label ""
-		(at 266.7 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "643e0122-5bd5-492e-94e1-7b4788b3e0cf")
 	)
 	(label "VEXT"
 		(at 114.3 26.67 180)
@@ -7582,7 +7590,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 85.09 110.49 270)
+		(at 85.09 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7591,7 +7599,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b8b496b-0841-4104-bbc3-c927b3ae3d2d")
 		(property "Reference" "#PWR040"
-			(at 81.28 110.49 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7608,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.9 110.4899 90)
+			(at 88.9 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 110.49 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 110.49 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 85.09 110.49 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7647,7 @@
 			(uuid "b2c36ce1-328d-4dda-83bd-99ca1b6b2d6b")
 		)
 		(instances
-			(project ""
+			(project "kolko_4layer"
 				(path "/f490b379-6bd6-444b-87af-8b43edc8fb8b"
 					(reference "#PWR040")
 					(unit 1)
@@ -8418,7 +8426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 119.38 90)
+		(at 85.09 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8427,7 +8435,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ee333e2-63f2-480f-885a-d9df8ae10902")
 		(property "Reference" "#PWR020"
-			(at 91.44 119.38 0)
+			(at 91.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,7 +8444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 119.3799 90)
+			(at 88.9 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 119.38 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +8462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 119.38 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +8471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 119.38 0)
+			(at 85.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8483,7 @@
 			(uuid "b90768be-6a50-4b84-99d3-5c5019feb24b")
 		)
 		(instances
-			(project ""
+			(project "kolko_4layer"
 				(path "/f490b379-6bd6-444b-87af-8b43edc8fb8b"
 					(reference "#PWR020")
 					(unit 1)
@@ -10207,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical"
 			(at 72.39 116.84 0)
 			(effects
 				(font
