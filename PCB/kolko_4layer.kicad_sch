@@ -4845,6 +4845,14 @@
 		(color 0 0 0 0)
 		(uuid "fffa1b2a-7c1c-45d5-ba6f-3bc143bee96f")
 	)
+	(no_connect
+		(at 242.57 54.61)
+		(uuid "74b0398d-e1b3-4a18-8974-2071c121b575")
+	)
+	(no_connect
+		(at 242.57 57.15)
+		(uuid "fbf52562-ce17-4287-863f-008c2f0f5b76")
+	)
 	(wire
 		(pts
 			(xy 105.41 102.87) (xy 115.57 102.87)
@@ -6245,14 +6253,6 @@
 		)
 		(uuid "120f750d-8f28-4882-8557-1de78134c905")
 	)
-	(no_connect
-		(at 242.57 54.61)
-		(uuid "74b0398d-e1b3-4a18-8974-2071c121b575")
-	)
-	(no_connect
-		(at 242.57 57.15)
-		(uuid "fbf52562-ce17-4287-863f-008c2f0f5b76")
-	)
 	(label "D_1MCU+"
 		(at 266.7 53.34 0)
 		(effects
@@ -7059,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "muxy2:SOP65P640X110-24N"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 49.53 257.48 0)
 			(effects
 				(font
@@ -14898,7 +14898,7 @@
 				)
 			)
 		)
-		(property "Value" "AMS1117-3.3"
+		(property "Value" "TLV76133DCYR"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -16914,7 +16914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 182.88 25.4 0)
 			(effects
 				(font
@@ -16982,7 +16982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 182.88 34.29 0)
 			(effects
 				(font
