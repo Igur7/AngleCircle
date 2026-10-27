@@ -67486,15 +67486,6 @@
 		(uuid "3261625b-e01c-4bd8-8d39-abe9934b2adf")
 	)
 	(via
-		(at 171.25 77.75)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 60)
-		(uuid "32c9142f-7ef2-4ee8-9b12-286e8a754397")
-	)
-	(via
 		(at 167.644793 36.644793)
 		(size 0.6)
 		(drill 0.3)
@@ -68033,15 +68024,6 @@
 		(uuid "6f4794db-00ed-4af8-aa15-d41265bb818d")
 	)
 	(via
-		(at 133.75 142.5)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 60)
-		(uuid "6f8856a4-40bb-4a99-8b9f-b06f24a2c492")
-	)
-	(via
 		(at 163.644793 44.644793)
 		(size 0.6)
 		(drill 0.3)
@@ -68419,15 +68401,6 @@
 		(free yes)
 		(net 60)
 		(uuid "94cf0c91-df4e-4041-8bea-0713dfacde58")
-	)
-	(via
-		(at 135.25 147.25)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 60)
-		(uuid "94d1150c-f7e5-4df2-adef-2d38c5a86089")
 	)
 	(via
 		(at 107.644793 44.644793)
